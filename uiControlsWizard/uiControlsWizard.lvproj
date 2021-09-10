@@ -29,7 +29,7 @@
 				<Item Name="Control Property Tree Module" Type="Folder">
 					<Item Name="Control Property Tree.lvlib" Type="Library" URL="../Control Property Tree/Control Property Tree.lvlib"/>
 				</Item>
-				<Item Name="Property Panel Module" Type="Folder">
+				<Item Name="Property Panel Launcher Module" Type="Folder">
 					<Item Name="Property Panel Launcher.lvlib" Type="Library" URL="../Libraries/Property Panel Launcher/Property Panel Launcher.lvlib"/>
 				</Item>
 				<Item Name="Plug-ins" Type="Folder">
