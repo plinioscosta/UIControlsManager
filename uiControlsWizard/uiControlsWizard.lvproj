@@ -20,6 +20,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="UI Controls Wizard" Type="Folder">
+			<Item Name="Property Panel Module" Type="Folder">
+				<Item Name="Property Panel.lvlib" Type="Library" URL="../Libraries/Property Panel/Property Panel.lvlib"/>
+			</Item>
 			<Item Name="Control Property Tree Module" Type="Folder">
 				<Item Name="Control Property Tree.lvlib" Type="Library" URL="../Control Property Tree/Control Property Tree.lvlib"/>
 			</Item>
@@ -27,9 +30,6 @@
 				<Item Name="Test Control Property Tree API.vi" Type="VI" URL="../Control Property Tree/Test Control Property Tree API.vi"/>
 				<Item Name="Test Property Panel API.vi" Type="VI" URL="../Libraries/Property Panel/Test Property Panel API.vi"/>
 			</Item>
-		</Item>
-		<Item Name="Property Panel Module" Type="Folder">
-			<Item Name="Property Panel.lvlib" Type="Library" URL="../Libraries/Property Panel/Property Panel.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
