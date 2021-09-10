@@ -20,15 +20,23 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="UI Controls Wizard" Type="Folder">
-			<Item Name="Property Panel Module" Type="Folder">
-				<Item Name="Property Panel.lvlib" Type="Library" URL="../Libraries/Property Panel/Property Panel.lvlib"/>
-			</Item>
-			<Item Name="Control Property Tree Module" Type="Folder">
-				<Item Name="Control Property Tree.lvlib" Type="Library" URL="../Control Property Tree/Control Property Tree.lvlib"/>
-			</Item>
 			<Item Name="Testers" Type="Folder">
 				<Item Name="Test Control Property Tree API.vi" Type="VI" URL="../Control Property Tree/Test Control Property Tree API.vi"/>
-				<Item Name="Test Property Panel API.vi" Type="VI" URL="../Libraries/Property Panel/Test Property Panel API.vi"/>
+				<Item Name="Test Property Panel Launcher API.vi" Type="VI" URL="../Libraries/Property Panel Launcher/Test Property Panel Launcher API.vi"/>
+				<Item Name="Test Disabled Property Panel API.vi" Type="VI" URL="../Libraries/Disabled Property Panel/Test Disabled Property Panel API.vi"/>
+			</Item>
+			<Item Name="Modules" Type="Folder">
+				<Item Name="Control Property Tree Module" Type="Folder">
+					<Item Name="Control Property Tree.lvlib" Type="Library" URL="../Control Property Tree/Control Property Tree.lvlib"/>
+				</Item>
+				<Item Name="Property Panel Module" Type="Folder">
+					<Item Name="Property Panel Launcher.lvlib" Type="Library" URL="../Libraries/Property Panel Launcher/Property Panel Launcher.lvlib"/>
+				</Item>
+				<Item Name="Plug-ins" Type="Folder">
+					<Item Name="Disabled Property Panel Module" Type="Folder">
+						<Item Name="Disabled Property Panel.lvlib" Type="Library" URL="../Libraries/Disabled Property Panel/Disabled Property Panel.lvlib"/>
+					</Item>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
