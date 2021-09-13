@@ -83,4 +83,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Test Template Property Panel API.vi" Type="VI" URL="../Test Template Property Panel API.vi"/>
 </Library>

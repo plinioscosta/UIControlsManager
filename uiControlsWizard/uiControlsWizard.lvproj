@@ -24,7 +24,6 @@
 				<Item Name="Test Control Property Tree API.vi" Type="VI" URL="../Control Property Tree/Test Control Property Tree API.vi"/>
 				<Item Name="Test Property Panel Launcher API.vi" Type="VI" URL="../Libraries/Property Panel Launcher/Test Property Panel Launcher API.vi"/>
 				<Item Name="Test Disabled Property Panel API.vi" Type="VI" URL="../Libraries/Disabled Property Panel/Test Disabled Property Panel API.vi"/>
-				<Item Name="Test Template Property Panel API.vi" Type="VI" URL="../Libraries/Template Property Panel/Test Template Property Panel API.vi"/>
 			</Item>
 			<Item Name="Modules" Type="Folder">
 				<Item Name="Control Property Tree Module" Type="Folder">
@@ -34,11 +33,11 @@
 					<Item Name="Property Panel Launcher.lvlib" Type="Library" URL="../Libraries/Property Panel Launcher/Property Panel Launcher.lvlib"/>
 				</Item>
 				<Item Name="Plug-ins" Type="Folder">
+					<Item Name="Blinking Property Panel Module" Type="Folder"/>
 					<Item Name="Disabled Property Panel Module" Type="Folder">
 						<Item Name="Disabled Property Panel.lvlib" Type="Library" URL="../Libraries/Disabled Property Panel/Disabled Property Panel.lvlib"/>
 					</Item>
 				</Item>
-				<Item Name="Template Property Panel.lvlib" Type="Library" URL="../Libraries/Template Property Panel/Template Property Panel.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">

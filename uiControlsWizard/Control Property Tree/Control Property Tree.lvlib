@@ -20,6 +20,7 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Load List of Controls Argument--cluster.ctl" Type="VI" URL="../Load List of Controls Argument--cluster.ctl"/>
 				<Item Name="Load Available PN Argument--cluster.ctl" Type="VI" URL="../Load Available PN Argument--cluster.ctl"/>
+				<Item Name="Update Property Value Argument--cluster.ctl" Type="VI" URL="../Update Property Value Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -35,6 +36,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Load List of Controls.vi" Type="VI" URL="../Load List of Controls.vi"/>
 			<Item Name="Load Available PN.vi" Type="VI" URL="../Load Available PN.vi"/>
+			<Item Name="Update Property Value.vi" Type="VI" URL="../Update Property Value.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -97,4 +99,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Update Property Map Value.vi" Type="VI" URL="../Update Property Map Value.vi"/>
 </Library>

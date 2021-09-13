@@ -19,6 +19,7 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Initialize Property Value Argument--cluster.ctl" Type="VI" URL="../Initialize Property Value Argument--cluster.ctl"/>
+				<Item Name="Load Panel Argument--cluster.ctl" Type="VI" URL="../Load Panel Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -34,6 +35,7 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Initialize Property Value.vi" Type="VI" URL="../Initialize Property Value.vi"/>
+			<Item Name="Load Panel.vi" Type="VI" URL="../Load Panel.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
