@@ -24,6 +24,7 @@
 				<Item Name="Test Control Property Tree API.vi" Type="VI" URL="../Control Property Tree/Test Control Property Tree API.vi"/>
 				<Item Name="Test Property Panel Launcher API.vi" Type="VI" URL="../Libraries/Property Panel Launcher/Test Property Panel Launcher API.vi"/>
 				<Item Name="Test Disabled Property Panel API.vi" Type="VI" URL="../Libraries/Disabled Property Panel/Test Disabled Property Panel API.vi"/>
+				<Item Name="Test Template Property Panel API.vi" Type="VI" URL="../Libraries/Template Property Panel/Test Template Property Panel API.vi"/>
 			</Item>
 			<Item Name="Modules" Type="Folder">
 				<Item Name="Control Property Tree Module" Type="Folder">
@@ -37,6 +38,7 @@
 						<Item Name="Disabled Property Panel.lvlib" Type="Library" URL="../Libraries/Disabled Property Panel/Disabled Property Panel.lvlib"/>
 					</Item>
 				</Item>
+				<Item Name="Template Property Panel.lvlib" Type="Library" URL="../Libraries/Template Property Panel/Template Property Panel.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -94,6 +96,9 @@
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Insert SubPanel.vi" Type="VI" URL="/&lt;userlib&gt;/My Utilities/Insert SubPanel.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
