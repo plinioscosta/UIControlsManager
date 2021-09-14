@@ -39,6 +39,7 @@
 					</Item>
 				</Item>
 			</Item>
+			<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
