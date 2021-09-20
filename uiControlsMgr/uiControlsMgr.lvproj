@@ -1,6 +1,14 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="IOScan.Faults" Type="Str"></Property>
+		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="IOScan.Period" Type="UInt">10000</Property>
+		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="IOScan.Priority" Type="UInt">9</Property>
+		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -54,7 +62,7 @@
 				<Property Name="TgtF_companyName" Type="Str">National Instruments Brazil Ltda.</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">UI Controls Manager</Property>
 				<Property Name="TgtF_internalName" Type="Str">UI Controls Manager</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright � 2021 National Instruments Brazil Ltda.</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ? 2021 National Instruments Brazil Ltda.</Property>
 				<Property Name="TgtF_productName" Type="Str">UI Controls Manager</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D9BF187B-C88D-449E-A2D7-4A3496177D34}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">UIControlesMgr.lvlibp</Property>
