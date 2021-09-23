@@ -25,6 +25,10 @@
 				<Item Name="Test Property Panel Launcher API.vi" Type="VI" URL="../Libraries/Property Panel Launcher/Test Property Panel Launcher API.vi"/>
 				<Item Name="Test Disabled Property Panel API.vi" Type="VI" URL="../Libraries/Disabled Property Panel/Test Disabled Property Panel API.vi"/>
 				<Item Name="Test Plugin Template API.vi" Type="VI" URL="../Libraries/Plugin Template/Test Plugin Template API.vi"/>
+				<Item Name="Test Caption Property Panel API.vi" Type="VI" URL="../Libraries/Caption Property Panel/Test Caption Property Panel API.vi"/>
+				<Item Name="Test Blinking Property Panel API.vi" Type="VI" URL="../Libraries/Blinking Property Panel/Test Blinking Property Panel API.vi"/>
+				<Item Name="Test Value Property Panel API.vi" Type="VI" URL="../Libraries/Value Property Panel/Test Value Property Panel API.vi"/>
+				<Item Name="Test Visible Property Panel API.vi" Type="VI" URL="../Libraries/Visible Property Panel/Test Visible Property Panel API.vi"/>
 			</Item>
 			<Item Name="Modules" Type="Folder">
 				<Item Name="Control Property Tree Module" Type="Folder">
@@ -34,14 +38,24 @@
 					<Item Name="Property Panel Launcher.lvlib" Type="Library" URL="../Libraries/Property Panel Launcher/Property Panel Launcher.lvlib"/>
 				</Item>
 				<Item Name="Plug-ins" Type="Folder">
-					<Item Name="Blinking Property Panel Module" Type="Folder"/>
+					<Item Name="Blinking Property Panel Module" Type="Folder">
+						<Item Name="Blinking Property Panel.lvlib" Type="Library" URL="../Libraries/Blinking Property Panel/Blinking Property Panel.lvlib"/>
+					</Item>
 					<Item Name="Disabled Property Panel Module" Type="Folder">
 						<Item Name="Disabled Property Panel.lvlib" Type="Library" URL="../Libraries/Disabled Property Panel/Disabled Property Panel.lvlib"/>
 					</Item>
 					<Item Name="Plugin Template" Type="Folder">
 						<Item Name="Plugin Template.lvlib" Type="Library" URL="../Libraries/Plugin Template/Plugin Template.lvlib"/>
 					</Item>
+					<Item Name="Caption Property Panel" Type="Folder">
+						<Item Name="Caption Property Panel.lvlib" Type="Library" URL="../Libraries/Caption Property Panel/Caption Property Panel.lvlib"/>
+					</Item>
+					<Item Name="Value Property Panel Module" Type="Folder">
+						<Item Name="Value Property Panel.lvlib" Type="Library" URL="../Libraries/Value Property Panel/Value Property Panel.lvlib"/>
+					</Item>
+					<Item Name="Visible Property Panel Module" Type="Folder"/>
 				</Item>
+				<Item Name="Visible Property Panel.lvlib" Type="Library" URL="../Libraries/Visible Property Panel/Visible Property Panel.lvlib"/>
 			</Item>
 			<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		</Item>
