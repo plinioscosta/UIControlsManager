@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="20008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Z!!!*Q(C=\&gt;5^5A*"%)&lt;B4]L!F"PI*M:78Y%)9SZAU"=Q)$8E#BVKF1EXI,B#8Y%L=)8VX;&amp;"!J6%,=NCFI(FG\`(W7767LG3,N7@+K-P#_WN4\U/8^^0&gt;EW\TXWX`@HR_(\@8M-K[+P@[00R(\5@L8`#@[,I8-\F@Z?HET_#(`]&gt;8'BY%&amp;'4'F3HGI:F_S20]C20]C20]C!0]C!0]C!0=C&gt;X=C&gt;X=C&gt;X=C-X=C-X=C-X]H;1CVTE)I?5,*YMF%S;4*"UBK,E,@%EHM34?0CKR*.Y%E`C34RU5?**0)EH]31?BCHR**\%EXA3$V-V3&lt;;$(%`C98I&amp;HM!4?!*0Y'&amp;*":Y!%#Q74"R-!E."9X!3?!*0Y/&amp;5A3@Q"*\!%XBI6O!*0)%H]!1?BL2&gt;C;9:$H)]4#0(YXA=D_.R0%QNR_.Y()`D=4QM*]@D?"S%M[!T/11ZAZQ/TB@(YXDYE/.R0)\(]4A?GNI6]L9TAW9YS0%9(M.D?!S0Y7%+'2\$9XA-D_&amp;B7BE?QW.Y$)`B93E:(M.D?!S)M3D,SZD-''BU-A,$Q[P&gt;,&gt;;O5D3*N5/KGV&gt;V5[JO.N6.J,IZ6"&gt;&gt;&gt;4&amp;6&amp;UGV_;J.67W7;B.5@ZQ+L=+I&amp;F%.(DJKS`O'OK9OK1PKH$KD4KA&gt;&gt;4Q-`?;/W_V7G]V'[`6;S_63C]6#]`F=M^F-E]F%8&gt;&gt;J0"Y@(A08()=(QO[Z^-4Z[P:R^@ISP6E^0.Y^&gt;^/&lt;Z_Z_.?3`]0`Z$TQ&lt;.&gt;,R'OT2'R!.3IU!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
+<Library LVVersion="21008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Z!!!*Q(C=\&gt;5^5A*"%)&lt;B4]L!F"PI*M:78Y%)9SZAU"=Q)$8E#BVKF1EXI,B#8Y%L=)8VX;&amp;"!J6%,=NCFI(FG\`(W7767LG3,N7@+K-P#_WN4\U/8^^0&gt;EW\TXWX`@HR_(\@8M-K[+P@[00R(\5@L8`#@[,I8-\F@Z?HET_#(`]&gt;8'BY%&amp;'4'F3HGI:F_S20]C20]C20]C!0]C!0]C!0=C&gt;X=C&gt;X=C&gt;X=C-X=C-X=C-X]H;1CVTE)I?5,*YMF%S;4*"UBK,E,@%EHM34?0CKR*.Y%E`C34RU5?**0)EH]31?BCHR**\%EXA3$V-V3&lt;;$(%`C98I&amp;HM!4?!*0Y'&amp;*":Y!%#Q74"R-!E."9X!3?!*0Y/&amp;5A3@Q"*\!%XBI6O!*0)%H]!1?BL2&gt;C;9:$H)]4#0(YXA=D_.R0%QNR_.Y()`D=4QM*]@D?"S%M[!T/11ZAZQ/TB@(YXDYE/.R0)\(]4A?GNI6]L9TAW9YS0%9(M.D?!S0Y7%+'2\$9XA-D_&amp;B7BE?QW.Y$)`B93E:(M.D?!S)M3D,SZD-''BU-A,$Q[P&gt;,&gt;;O5D3*N5/KGV&gt;V5[JO.N6.J,IZ6"&gt;&gt;&gt;4&amp;6&amp;UGV_;J.67W7;B.5@ZQ+L=+I&amp;F%.(DJKS`O'OK9OK1PKH$KD4KA&gt;&gt;4Q-`?;/W_V7G]V'[`6;S_63C]6#]`F=M^F-E]F%8&gt;&gt;J0"Y@(A08()=(QO[Z^-4Z[P:R^@ISP6E^0.Y^&gt;^/&lt;Z_Z_.?3`]0`Z$TQ&lt;.&gt;,R'OT2'R!.3IU!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -87,6 +87,7 @@
 		<Item Name="Selected Ctrls - List of Controls.ctl" Type="VI" URL="../Selected Ctrls - List of Controls.ctl"/>
 		<Item Name="Selected Ctrls - List of Properties.ctl" Type="VI" URL="../Selected Ctrls - List of Properties.ctl"/>
 		<Item Name="Update List of Controls Tree.vi" Type="VI" URL="../Update List of Controls Tree.vi"/>
+		<Item Name="Update Property Map Value.vi" Type="VI" URL="../Update Property Map Value.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -99,5 +100,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Update Property Map Value.vi" Type="VI" URL="../Update Property Map Value.vi"/>
 </Library>

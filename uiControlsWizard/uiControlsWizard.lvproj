@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -53,9 +53,13 @@
 					<Item Name="Value Property Panel Module" Type="Folder">
 						<Item Name="Value Property Panel.lvlib" Type="Library" URL="../Libraries/Value Property Panel/Value Property Panel.lvlib"/>
 					</Item>
-					<Item Name="Visible Property Panel Module" Type="Folder"/>
+					<Item Name="Visible Property Panel Module" Type="Folder">
+						<Item Name="Visible Property Panel.lvlib" Type="Library" URL="../Libraries/Visible Property Panel/Visible Property Panel.lvlib"/>
+					</Item>
 				</Item>
-				<Item Name="Visible Property Panel.lvlib" Type="Library" URL="../Libraries/Visible Property Panel/Visible Property Panel.lvlib"/>
+			</Item>
+			<Item Name="Utilities" Type="Folder">
+				<Item Name="Insert SubPanel.vi" Type="VI" URL="../Utilities/Insert SubPanel.vi"/>
 			</Item>
 			<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		</Item>
@@ -114,9 +118,6 @@
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="Insert SubPanel.vi" Type="VI" URL="/&lt;userlib&gt;/My Utilities/Insert SubPanel.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
